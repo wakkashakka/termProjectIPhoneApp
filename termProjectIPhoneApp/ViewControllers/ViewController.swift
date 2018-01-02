@@ -168,7 +168,7 @@ class ViewController: UIViewController , CLLocationManagerDelegate{
         
         if(self.cityName != nil && self.countryName != nil){
         
-            self.locationLbl.text = " \(self.cityName!) , \(self.countryName!) "
+            self.locationLbl.text = "\(self.cityName!), \(self.countryName!)"
             
             
             getWeather()
